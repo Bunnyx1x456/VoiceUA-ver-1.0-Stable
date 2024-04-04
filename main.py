@@ -97,7 +97,7 @@ class App(customtkinter.CTk):
 
 
         #Функція для озвучування перекладеного тексту
-        def gTTS():
+        def TTS_Engine():
             from gtts import gTTS
             
             with open('output.txt', 'r') as file:
@@ -151,7 +151,7 @@ class App(customtkinter.CTk):
             audio_video_separator()
             STT_Engine()
             Google_Translator()
-            gTTS()
+            TTS_Engine()
             save_file_dialog()
 
             
