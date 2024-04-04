@@ -1,4 +1,4 @@
-1. Встановіть python 3.8.0
+1. Встановіть python 3.8.0 або новішу https://www.python.org/downloads/release/python-380/
 2. Встановіть необхідні бібліотеки
   > Натисніть кнопку Win (Windows)
   > Напишіть в пошук "cmd"
