@@ -74,7 +74,7 @@ class App(customtkinter.CTk):
             try:
                 with sr.AudioFile(audio_file_path) as file:
                     audio_file_path =recognizer.record(file)
-                text = recognizer.recognize_google(audio_file_path)
+                text = recognizer.recognize_google(audio_file_path) #, language="ru-RU"
                 with open("output.txt", "w") as text_file:
                     text_file.write(text)
                 print("Виконано оцифрування аудіо")
